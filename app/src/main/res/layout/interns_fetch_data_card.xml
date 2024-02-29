@@ -1,0 +1,95 @@
+<!-- redesigned_intern_fetch_data_card.xml -->
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    card_view:cardCornerRadius="8dp"
+    card_view:cardElevation="4dp">
+        <!-- Additional Fields -->
+    <!-- Additional Fields -->
+    <LinearLayout
+        android:id="@+id/intern_additionalFieldsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+     >
+    <!-- Additional Fields -->
+        <TextView
+        android:id="@+id/txt_intern_full_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ganpat"
+        android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/txt_intern_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/txt_intern_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/txt_intern_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: example@example.com"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/txt_intern_start_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Internship Start Date: mm/dd/yyyy"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/txt_intern_end_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Internship End Date: mm/dd/yyyy"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/txt_intern_supervisor_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Supervisor Name: John Supervisor"
+            android:textSize="20dp"/>
+
+        <!-- New Fields Added -->
+        <TextView
+            android:id="@+id/txt_intern_fees"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fees: $5000"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/txt_intern_employee_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Employee Email: employee@example.com"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/txt_intern_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duration: 3 months"
+            android:textSize="20dp"/>
+
+        <!-- Remove unnecessary fields -->
+
+
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>

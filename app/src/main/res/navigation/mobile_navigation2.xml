@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_manage_profile"
+        android:name="com.spectric.erpsystem.CompanyFragment.ManageProfileFragment"
+        android:label="Manage Profile"
+        tools:layout="@layout/fragment_manage_profile_frament" />
+    <fragment
+        android:id="@+id/nav_DashBoard_Fragment"
+        android:name="com.spectric.erpsystem.CompanyFragment.DashBoardFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_dash_board" />
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.spectric.erpsystem.CompanyFragment.ClientsFragment"
+        android:label="Clients"
+        tools:layout="@layout/fragment_clients" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.spectric.erpsystem.CompanyFragment.EmployeeFragment"
+        android:label="Employee Management"
+        tools:layout="@layout/fragment_employee" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.spectric.erpsystem.CompanyFragment.InternsFragment"
+        android:label="Interns"
+        tools:layout="@layout/fragment_interns" />
+    <fragment
+        android:id="@+id/nav_interns"
+        android:name="com.spectric.erpsystem.CompanyFragment.InvoiceFragment"
+        android:label="Invoices"
+        tools:layout="@layout/fragment_invoice" />
+    <fragment
+        android:id="@+id/nav_budget"
+        android:name="com.spectric.erpsystem.CompanyFragment.BudgetFragment"
+        android:label="budget"
+        tools:layout="@layout/fragment_budget" />
+
+
+</navigation>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- datacard.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_background"
+    android:backgroundTint="@color/white"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_margin="10dp">
+
+
+
+
+    <LinearLayout
+        android:id="@+id/employee_additionalFieldsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txt_employee_Name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_margin="10sp"
+            android:text=" Name"/>
+
+            <TextView
+                android:id="@+id/txt_employee_mobile1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_margin="10sp"
+                android:textStyle="bold"
+                android:text="Mobile: +123456789"/>
+        <!-- Add more fields as needed -->
+        <TextView
+            android:id="@+id/txt_employee_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_margin="10sp"
+            android:textStyle="bold"
+            android:text="Email: example@example.com"/>
+
+        <TextView
+            android:id="@+id/txt_employee_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_margin="10sp"
+            android:textStyle="bold"
+            android:text="Address: 123 Main St"/>
+
+        <TextView
+            android:id="@+id/txt_employee_Status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_margin="10sp"
+            android:textStyle="bold"
+            android:text="Status: Active"/>
+
+        <TextView
+            android:id="@+id/txt_employee_Role"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_margin="10sp"
+            android:textStyle="bold"
+
+            android:text="Role: Employee"/>
+
+
+        <TextView
+            android:id="@+id/txt_employee_salary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_margin="10sp"
+            android:textStyle="bold"
+
+            android:text="Salary: 20000"/>
+
+
+        <TextView
+            android:id="@+id/txt_employee_joining_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_margin="10sp"
+            android:textStyle="bold"
+
+            android:text="Joining Date 1-1-2006"/>
+
+    </LinearLayout>
+
+</LinearLayout>

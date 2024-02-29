@@ -1,0 +1,16 @@
+<!-- res/drawable/circular_progress_completed.xml -->
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="ring"
+    android:innerRadiusRatio="2.3"
+    android:thicknessRatio="15.0"
+    android:useLevel="false">
+
+    <gradient
+        android:centerColor="#00FF00"
+        android:centerY="0.50"
+        android:endColor="#00FF00"
+        android:startColor="#00FF00"
+        android:type="sweep"
+        android:useLevel="false" />
+</shape>

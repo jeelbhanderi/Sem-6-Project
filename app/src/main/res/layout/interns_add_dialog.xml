@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- add_intern_dialog.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="10dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Personal Information -->
+            <EditText
+                android:id="@+id/add_intern_full_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="Full Name"
+                android:inputType="textPersonName"/>
+
+            <EditText
+                android:id="@+id/add_intern_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="Field"
+                android:inputType="textPersonName"/>
+
+            <RadioGroup
+                android:id="@+id/add_intern_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio_male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male"/>
+
+                <RadioButton
+                    android:id="@+id/radio_female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Female"/>
+
+                <RadioButton
+                    android:id="@+id/radio_other"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Other"/>
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/add_intern_contact_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="Contact Number"
+                android:inputType="phone"/>
+
+            <EditText
+                android:id="@+id/add_intern_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="Email Address"
+                android:inputType="textEmailAddress"/>
+
+            <!-- Internship Details -->
+            <EditText
+                android:id="@+id/add_intern_fees"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="Fees"
+                android:inputType="number"/>
+
+            <EditText
+                android:id="@+id/add_intern_employee_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="Employee Email Address"
+                android:inputType="textEmailAddress"/>
+
+            <EditText
+                android:id="@+id/add_intern_start_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="Internship Start Date"
+                android:inputType="date"/>
+
+            <EditText
+                android:id="@+id/add_intern_end_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="Internship End Date"
+                android:inputType="date"/>
+
+            <EditText
+                android:id="@+id/add_intern_duration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="Internship Duration"
+                android:inputType="number"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

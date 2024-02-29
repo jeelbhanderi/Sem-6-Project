@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- datacard.xml -->
+
+<!-- datacard.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_margin="10dp">
+
+    <EditText
+        android:id="@+id/edit_invoice_clientname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="Client Name"/>
+
+    <EditText
+        android:id="@+id/edit_invoice_client_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="Client Email"/>
+
+    <EditText
+        android:id="@+id/edit_invoice_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:hint="Invoice No"/>
+
+    <EditText
+        android:id="@+id/edit_invoice_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="Invoice Date"/>
+
+    <EditText
+        android:id="@+id/edit_invoice_client_Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="Client Address"/>
+
+    <EditText
+        android:id="@+id/edit_invoice_client_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="Client Mobile"/>
+
+    <EditText
+        android:id="@+id/edit_invoice_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="Invoice Amount"/>
+
+    <EditText
+        android:id="@+id/edit_invoice_cgst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="Invoice CGST"/>
+
+</LinearLayout>

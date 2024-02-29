@@ -1,0 +1,127 @@
+<!-- client_data_fetch.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_background"
+    android:orientation="vertical"
+    android:backgroundTint="@color/white">
+
+        <TextView
+            android:id="@+id/txt_client_Name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Name"/>
+
+        <TextView
+            android:id="@+id/txt_client_mobile1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_margin="10sp"
+            android:textStyle="bold"
+            android:text="Mobile: +123456789"/>
+
+        <TextView
+            android:id="@+id/txt_client_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_margin="10sp"
+            android:textStyle="bold"
+            android:text="Email: example@example.com"/>
+
+        <TextView
+            android:id="@+id/txt_client_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_margin="10sp"
+            android:textStyle="bold"
+            android:text="Address: 123 Main St"/>
+
+        <TextView
+            android:id="@+id/txt_client_ProjectName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_margin="10sp"
+            android:textStyle="bold"
+            android:text="Project Name"/>
+
+        <TextView
+            android:id="@+id/txt_client_ProjectDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_margin="10sp"
+            android:textStyle="bold"
+            android:text="Project Description"/>
+
+        <TextView
+            android:id="@+id/txt_client_TotalPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_margin="10sp"
+            android:textStyle="bold"
+            android:text="Total Price"/>
+
+        <TextView
+            android:id="@+id/txt_client_AdvancePayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_margin="10sp"
+            android:textStyle="bold"
+            android:text="Advance Payment"/>
+
+        <TextView
+            android:id="@+id/txt_client_RemainingPayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_margin="10sp"
+            android:textStyle="bold"
+            android:text="Remaining Payment"/>
+
+        <TextView
+            android:id="@+id/txt_client_Language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_margin="10sp"
+            android:textStyle="bold"
+            android:text="Language"/>
+
+        <TextView
+            android:id="@+id/txt_client_SubmissionDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_margin="10sp"
+            android:textStyle="bold"
+            android:text="Submission Date"/>
+
+        <TextView
+            android:id="@+id/txt_client_ProjectManagerEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_margin="10sp"
+            android:textStyle="bold"
+            android:text="ProjectManagerEmail"/>
+
+
+        <TextView
+            android:id="@+id/txt_client_PushId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_margin="10sp"
+            android:textStyle="bold"
+            android:text="PushId"/>
+</LinearLayout>

@@ -1,0 +1,74 @@
+<!-- company_detail_layout.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_margin="10dp">
+
+    <EditText
+        android:id="@+id/editTextCompanyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Company Name"/>
+
+    <EditText
+        android:id="@+id/editTextMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile"/>
+
+    <EditText
+        android:id="@+id/editTextAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"/>
+
+    <EditText
+        android:id="@+id/editTextWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Website"/>
+
+    <EditText
+        android:id="@+id/editTextGstNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="GST No"/>
+
+    <EditText
+        android:id="@+id/editTextHscSac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="HSC SAC"/>
+
+    <EditText
+        android:id="@+id/editTextCompanyPan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Company PAN"/>
+
+
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"/>
+<Button
+    android:id="@+id/com_Edit_btn"
+    android:text="Edit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/item_project_details.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="1dp"
+    android:backgroundTint="#D14848">
+
+    <TextView
+        android:id="@+id/txtProjectName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Progress AnyChartView -->
+    <com.anychart.AnyChartView
+        android:id="@+id/anyChartProgress"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

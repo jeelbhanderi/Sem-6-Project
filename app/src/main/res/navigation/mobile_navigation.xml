@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.spectric.erpsystem.AdminFragment.FetchAdminCompanyFragment"
+        android:label="ManageCompany"
+        tools:layout="@layout/fragment_fetch_admin_company" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.spectric.erpsystem.AdminFragment.AdInvoiceFragment"
+        android:label="Invoice"
+        tools:layout="@layout/fragment_ad_invoice" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.spectric.erpsystem.AdminFragment.AdminProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_admin_profile" />
+    <fragment
+        android:id="@+id/nav_ad_client"
+        android:name="com.spectric.erpsystem.AdminFragment.AdClientFragment"
+        android:label="Client Fragment"
+        tools:layout="@layout/fragment_ad_client" />
+    <fragment
+        android:id="@+id/nav_ad_employee"
+        android:name="com.spectric.erpsystem.AdminFragment.AdEmployeeFragment"
+        android:label="Employee"
+        tools:layout="@layout/fragment_ad_employee" />
+    <fragment
+        android:id="@+id/nav_ad_interns"
+        android:name="com.spectric.erpsystem.AdminFragment.AdInternsFragment"
+        android:label="Interns"
+        tools:layout="@layout/fragment_interns" />
+    <fragment
+        android:id="@+id/nav_ad_Projects"
+        android:name="com.spectric.erpsystem.AdminFragment.AdProjectFragment"
+        android:label="Projects"
+        tools:layout="@layout/fragment_ad_project" />
+    <fragment
+        android:id="@+id/ad_nav_budget"
+        android:name="com.spectric.erpsystem.AdminFragment.AdBudgetFragment"
+        android:label="Projects"
+        tools:layout="@layout/fragment_ad_budget" />
+
+</navigation>

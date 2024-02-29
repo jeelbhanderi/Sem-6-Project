@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Keep the relevant fields -->
+            <EditText
+                android:id="@+id/addclientetName"
+                android:hint="Name"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/addclientetEmail"
+                android:hint="client@gmail.com"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/addclientetMobile"
+                android:hint="9510533770"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!-- Add the remaining fields -->
+            <EditText
+                android:id="@+id/addclientetProjectName"
+                android:hint="Project Name"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/addclientetProjectDescription"
+                android:hint="Project Description"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/addclientetTotalPrice"
+                android:hint="100"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/addclientetAdvancePayment"
+                android:hint="25"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/addclientetRemainingPayment"
+                android:hint="75"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/addclientetLanguage"
+                android:hint="Android"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/addclientetSubmissionDate"
+                android:hint="02-02-2006"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/addclientetProjectManagerEmail"
+                android:hint="Employee@gmail.com"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

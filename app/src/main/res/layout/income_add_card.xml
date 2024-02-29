@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- income_form.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Customer ID -->
+    <EditText
+        android:id="@+id/edit_text_customer_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Customer ID"
+        android:inputType="text" />
+
+    <!-- Customer Type -->
+    <EditText
+        android:id="@+id/edit_text_customer_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Customer Type"
+        android:inputType="text" />
+
+    <!-- Total Amount -->
+    <EditText
+        android:id="@+id/edit_text_total_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Total Amount"
+        android:inputType="numberDecimal" />
+
+    <!-- Advance Payment -->
+    <EditText
+        android:id="@+id/edit_text_advance_payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Advance Payment"
+        android:inputType="numberDecimal" />
+
+    <!-- Remaining Payment -->
+    <EditText
+        android:id="@+id/edit_text_remaining_payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Remaining Payment"
+        android:inputType="numberDecimal" />
+
+    <!-- Current Date -->
+    <EditText
+        android:id="@+id/edit_text_current_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Current Date"
+        android:inputType="text" />
+
+    <!-- Button to Save -->
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+</LinearLayout>

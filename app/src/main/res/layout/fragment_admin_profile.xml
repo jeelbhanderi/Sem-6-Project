@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminFragment.AdminProfileFragment"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/AdminProfile"
+        android:layout_marginVertical="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:src="@drawable/google"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+        android:id="@+id/ProfileetName"
+        android:text="Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_margin="10dp"
+        android:background="#D9D9D9"
+        android:padding="10dp"
+        android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/ProfileetEmail"
+            android:text="Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_margin="10dp"
+            android:background="#D9D9D9"
+            android:padding="10dp"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/profileetMobile"
+            android:text="Mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_margin="10dp"
+            android:background="#D9D9D9"
+            android:padding="10dp"
+            android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/Profile_etAddress"
+                android:text="Address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:layout_margin="10dp"
+                android:background="#D9D9D9"
+                android:padding="10dp"
+                android:textSize="20dp"/>
+
+
+            <Button
+                android:id="@+id/admin_edit_Profile_btn"
+                android:text="EditProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:layout_margin="10dp"
+                android:backgroundTint="#00BCD4"
+                android:padding="10dp"
+                android:textSize="20dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

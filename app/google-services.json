@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "285436476879",
+    "project_id": "erpsystem-75f12",
+    "storage_bucket": "erpsystem-75f12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285436476879:android:783a6672532e4c7fc626ba",
+        "android_client_info": {
+          "package_name": "com.spectric.erpsystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsiXhxjLtSO_ra-5UDkOZrTm7AsjcVAQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

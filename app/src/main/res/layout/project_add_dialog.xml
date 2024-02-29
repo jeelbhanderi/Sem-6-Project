@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/Add_Project_owner_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Owner Email" />
+
+    <RadioGroup
+        android:id="@+id/type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioClient"
+            android:text="Client"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/radioIntern"
+            android:text="Intern"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/Add_Project_Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Project Description" />
+
+    <EditText
+        android:id="@+id/Add_Project_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Project Name" />
+
+    <EditText
+        android:id="@+id/Add_Project_total_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Total Price" />
+    <EditText
+        android:id="@+id/Add_Project_AdvancePayMent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="AdvancePayment" />
+    <EditText
+        android:id="@+id/Add_Project_RemainingPayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="RemainingPayment" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/Add_Project_Progress"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Progress" />-->
+
+    <EditText
+        android:id="@+id/Add_Project_Field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Field" />
+    <EditText
+        android:id="@+id/Add_Project_HandlerEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="EMployeeEmail" />
+
+    <EditText
+        android:id="@+id/Add_Project_submition_Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Submission Date"
+        android:inputType="date" />
+    <SeekBar
+        android:id="@+id/progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarSize="60dp"
+        android:max="100"/>
+</LinearLayout>

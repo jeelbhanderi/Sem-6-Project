@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- datacard.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#AAAAAA"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_margin="10dp">
+
+ 
+    <!-- Main Fields -->
+    <TextView
+        android:id="@+id/txtcompanyname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Company Name"/>
+
+
+
+    <TextView
+        android:id="@+id/txtmobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="Mobile: +123456789"/>
+
+        <!-- Add more fields as needed -->
+        <TextView
+            android:id="@+id/txtemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Email: example@example.com"/>
+
+        <TextView
+            android:id="@+id/txtaddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Address: 123 Main St"/>
+
+        <TextView
+            android:id="@+id/txtgstno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="GST No: ABC123"/>
+        <TextView
+            android:id="@+id/txtpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="GST No: ABC123"/>
+
+
+        <!-- Add more fields as needed -->
+
+    </LinearLayout>
+

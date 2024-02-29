@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterCompanyActivity"
+    android:orientation="vertical"
+    android:background="@drawable/registerbackground"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Company Registration"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:layout_margin="25dp"
+                />
+
+            <EditText
+                android:id="@+id/regetCompanyName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="CompanyName"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_margin="10dp"
+                android:background="#30ffffff"
+                android:padding="20dp"/>
+            <EditText
+                android:id="@+id/regetmobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mobile"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_margin="10dp"
+                android:background="#30ffffff"
+                android:padding="20dp"/>
+
+            <EditText
+                android:id="@+id/regetAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_margin="10dp"
+                android:background="#30ffffff"
+                android:padding="20dp"/>
+
+
+
+            <EditText
+                android:id="@+id/regetEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_margin="10dp"
+                android:background="#30ffffff"
+                android:padding="20dp"/>
+
+            <EditText
+                android:id="@+id/regetWebsite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Website"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_margin="10dp"
+                android:background="#30ffffff"
+                android:padding="20dp"/>
+            <EditText
+                android:id="@+id/regetgstno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Gstno"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_margin="10dp"
+                android:background="#30ffffff"
+                android:padding="20dp"/>
+
+            <EditText
+                android:id="@+id/regetHScSac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Hsc/Sac"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_margin="10dp"
+                android:background="#30ffffff"
+                android:padding="20dp"/>
+            <EditText
+                android:id="@+id/regetCompanyPan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="CompanyPan"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_margin="10dp"
+                android:background="#30ffffff"
+                android:padding="20dp"/>
+
+
+
+            <EditText
+                android:id="@+id/regetpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="password"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_margin="10dp"
+                android:background="#30ffffff"
+                android:padding="20dp"/>
+
+            <Button
+                android:id="@+id/regbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#00BCD4"
+                ></Button>
+            <TextView
+                android:id="@+id/PageChangetxt"
+                android:text="you Have already Account ?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_margin="20dp"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                ></TextView>
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

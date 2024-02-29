@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- income_details.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Customer ID -->
+    <TextView
+        android:id="@+id/text_view_customer_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Customer ID: " />
+
+    <!-- Customer Type -->
+    <TextView
+        android:id="@+id/text_view_customer_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Customer Type: " />
+
+    <!-- Total Amount -->
+    <TextView
+        android:id="@+id/text_view_total_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Amount: " />
+
+    <!-- Advance Payment -->
+    <TextView
+        android:id="@+id/text_view_advance_payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Advance Payment: " />
+
+    <!-- Remaining Payment -->
+    <TextView
+        android:id="@+id/text_view_remaining_payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remaining Payment: " />
+
+    <!-- Current Date -->
+    <TextView
+        android:id="@+id/text_view_current_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Date: " />
+
+</LinearLayout>
