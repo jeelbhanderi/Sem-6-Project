@@ -97,7 +97,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="20dp"
-                android:text="Client's Projects"
+                android:text="Income"
                 android:textSize="20dp" />
             <LinearLayout
                 android:layout_height="wrap_content"
@@ -118,7 +118,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="20dp"
-                android:text="Intern's Projects"
+                android:text="Expenses"
                 android:textSize="20dp" />
             <LinearLayout
                 android:layout_width="wrap_content"

@@ -8,12 +8,16 @@
         android:id="@+id/Show_Project_Name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
         android:text="Project Name: " />
 
     <TextView
         android:id="@+id/Show_Project_client_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
         android:text="Email Id: " />
 
     <TextView
@@ -21,6 +25,8 @@
         android:text="type"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
         android:orientation="horizontal">
 
     </TextView>
@@ -29,34 +35,46 @@
         android:id="@+id/Show_Project_Description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
         android:text="Project Description: " />
 
     <TextView
         android:id="@+id/Show_Project_total_price"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
         android:text="Total Price: " />
 
     <TextView
         android:id="@+id/Show_Project_Advance_payment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
         android:text="Advance Payment: " />
     <TextView
         android:id="@+id/Show_Project_Progress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
         android:text="Progres " />
     <TextView
         android:id="@+id/Show_Project_Status"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
         android:text="Progres " />
 
     <TextView
         android:id="@+id/Show_Project_submition_Date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
         android:text="Submission Date: " />
 
 </LinearLayout>

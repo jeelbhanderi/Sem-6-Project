@@ -1,5 +1,6 @@
 package com.spectric.erpsystem.CompanyFragment;
 
+import android.net.Uri;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
@@ -8,26 +9,45 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
+import androidx.activity.result.ActivityResultCallback;
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
+import com.google.firebase.storage.UploadTask;
 import com.spectric.erpsystem.Models.Company.CompanyFetchModel;
 import com.spectric.erpsystem.Models.Company.CompanyRegisterModel;
 import com.spectric.erpsystem.R;
+import com.bumptech.glide.Glide;
+
 
 public class ManageProfileFragment extends Fragment {
 
     private DatabaseReference mdatabase;
     private FirebaseAuth mAuth;
     private Button edit;
+    ActivityResultLauncher<String> launcher;
+    private FirebaseStorage storage;
+    private StorageReference storageRef;
+
+    DatabaseReference databaseReference;
+    ImageView UserDp;
+    // Inside onCreateView() method, after initializing other variables
+
 
     private EditText editTextCompanyName, editTextMobile, editTextAddress, editTextEmail,
             editTextWebsite, editTextGstNo, editTextHscSac, editTextCompanyPan,
@@ -37,10 +57,56 @@ public class ManageProfileFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_manage_profile_frament, container, false);
-
+        // Inside onCreateView() method, after mdatabase initialization
+        storage = FirebaseStorage.getInstance();
+        databaseReference = FirebaseDatabase.getInstance().getReference();
         mdatabase = FirebaseDatabase.getInstance().getReference();
         mAuth = FirebaseAuth.getInstance();
         String userId = mAuth.getCurrentUser().getUid();
+        UserDp = view.findViewById(R.id.user_dp);
+        UserDp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                launcher.launch("image/*");
+            }
+        });
+        launcher = registerForActivityResult(new ActivityResultContracts.GetContent(), new ActivityResultCallback<Uri>() {
+            @Override
+            public void onActivityResult(Uri result) {
+                String PushID = mAuth.getInstance().getCurrentUser().getUid();
+
+                storageRef = storage.getReference().child("images").child(PushID);
+
+                storageRef.putFile(result).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+                    @Override
+                    public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+                        Toast.makeText(requireActivity(), "Images Upated", Toast.LENGTH_SHORT).show();
+                        storageRef.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
+                            @Override
+                            public void onSuccess(Uri uri) {
+                                databaseReference.child("All Data").child("Images").child(PushID).setValue(uri.toString()).addOnSuccessListener(new OnSuccessListener<Void>() {
+                                    @Override
+                                    public void onSuccess(Void unused) {
+                                        Toast.makeText(requireActivity(), "firebase Success", Toast.LENGTH_SHORT).show();
+                                    }
+                                });
+                            }
+                        });
+                    }
+                }).addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception e) {
+                        Toast.makeText(requireActivity(), "Images Not Uploaded", Toast.LENGTH_SHORT).show();
+                    }
+                });
+
+
+
+            }
+        });
+        String PushID = mAuth.getInstance().getCurrentUser().getUid();
+
+
 
 
         mdatabase.child("All Data").child("Company").child(userId).addListenerForSingleValueEvent(new ValueEventListener() {
@@ -62,6 +128,24 @@ public class ManageProfileFragment extends Fragment {
                         // Disable Email and Password EditText fields
                         editTextEmail.setEnabled(false);
                         editTextPassword.setEnabled(false);
+                        // Inside onDataChange() method, after populating other fields
+                        String userId = mAuth.getCurrentUser().getUid();
+                        StorageReference profileImageRef = FirebaseStorage.getInstance().getReference().child("images").child(userId);
+                        profileImageRef.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
+                            @Override
+                            public void onSuccess(Uri uri) {
+                                // Load and display the profile image using Glide
+                                Glide.with(requireContext()).load(uri).into(UserDp);
+                            }
+                        }).addOnFailureListener(new OnFailureListener() {
+                            @Override
+                            public void onFailure(@NonNull Exception e) {
+                                // Handle failure to retrieve profile image
+                                // For example, load a default placeholder image
+                                Glide.with(requireContext()).load(R.drawable.default_profile).into(UserDp);
+                            }
+                        });
+
                     }
                 }
             }

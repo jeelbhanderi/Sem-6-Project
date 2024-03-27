@@ -117,6 +117,8 @@ public class EmployeeFragment extends Fragment {
                                     mdatabase.child("All Data").child("employee").child(pushID).child(Id).setValue(employeeAddModel);
                                     // Clear input fields
                                     clearInputFields();
+                                    dialog.dismiss();
+
                                 }
                             }
                         });

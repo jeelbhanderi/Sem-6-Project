@@ -10,7 +10,7 @@
         android:id="@+id/edit_text_customer_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Customer ID" />
+        android:hint=" Email" />
 
     <!-- Customer Type -->
     <EditText

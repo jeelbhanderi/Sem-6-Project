@@ -12,7 +12,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10sp"
-            android:textSize="24sp"
+            android:textSize="15dp"
             android:textStyle="bold"
             android:text="Name"/>
 
@@ -20,7 +20,7 @@
             android:id="@+id/txt_client_mobile1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
+            android:textSize="15dp"
             android:layout_margin="10sp"
             android:textStyle="bold"
             android:text="Mobile: +123456789"/>
@@ -29,7 +29,7 @@
             android:id="@+id/txt_client_email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
+            android:textSize="15dp"
             android:layout_margin="10sp"
             android:textStyle="bold"
             android:text="Email: example@example.com"/>
@@ -38,7 +38,7 @@
             android:id="@+id/txt_client_address"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
+            android:textSize="15dp"
             android:layout_margin="10sp"
             android:textStyle="bold"
             android:text="Address: 123 Main St"/>
@@ -47,7 +47,7 @@
             android:id="@+id/txt_client_ProjectName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
+            android:textSize="15dp"
             android:layout_margin="10sp"
             android:textStyle="bold"
             android:text="Project Name"/>
@@ -56,7 +56,7 @@
             android:id="@+id/txt_client_ProjectDescription"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
+            android:textSize="15dp"
             android:layout_margin="10sp"
             android:textStyle="bold"
             android:text="Project Description"/>
@@ -65,7 +65,7 @@
             android:id="@+id/txt_client_TotalPrice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
+            android:textSize="15dp"
             android:layout_margin="10sp"
             android:textStyle="bold"
             android:text="Total Price"/>
@@ -74,7 +74,7 @@
             android:id="@+id/txt_client_AdvancePayment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
+            android:textSize="15dp"
             android:layout_margin="10sp"
             android:textStyle="bold"
             android:text="Advance Payment"/>
@@ -83,7 +83,7 @@
             android:id="@+id/txt_client_RemainingPayment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
+            android:textSize="15dp"
             android:layout_margin="10sp"
             android:textStyle="bold"
             android:text="Remaining Payment"/>
@@ -92,7 +92,7 @@
             android:id="@+id/txt_client_Language"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
+            android:textSize="15dp"
             android:layout_margin="10sp"
             android:textStyle="bold"
             android:text="Language"/>
@@ -101,7 +101,7 @@
             android:id="@+id/txt_client_SubmissionDate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
+            android:textSize="15dp"
             android:layout_margin="10sp"
             android:textStyle="bold"
             android:text="Submission Date"/>
@@ -110,7 +110,7 @@
             android:id="@+id/txt_client_ProjectManagerEmail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
+            android:textSize="15dp"
             android:layout_margin="10sp"
             android:textStyle="bold"
             android:text="ProjectManagerEmail"/>
@@ -120,7 +120,7 @@
             android:id="@+id/txt_client_PushId"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
+            android:textSize="15dp"
             android:layout_margin="10sp"
             android:textStyle="bold"
             android:text="PushId"/>

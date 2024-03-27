@@ -68,7 +68,8 @@ public class CompanyLoginActivity extends AppCompatActivity {
                             DatabaseReference logref;
                             String LogPushId = FirebaseAuth.getInstance().getUid();
                             logref = FirebaseDatabase.getInstance().getReference();
-                            logref.child("All Data").child("User").child(LogPushId).addValueEventListener(new ValueEventListener() {
+                            assert LogPushId != null;
+                            logref.child("All Data").child("Users").child(LogPushId).addValueEventListener(new ValueEventListener() {
                                 @Override
                                 public void onDataChange(@NonNull DataSnapshot snapshot) {
                                     if(snapshot.exists()){

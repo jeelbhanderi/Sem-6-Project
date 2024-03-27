@@ -11,7 +11,7 @@
         android:id="@+id/edit_text_customer_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Customer ID"
+        android:hint="Customer Email"
         android:inputType="text" />
 
     <!-- Customer Type -->
@@ -55,10 +55,6 @@
         android:inputType="text" />
 
     <!-- Button to Save -->
-    <Button
-        android:id="@+id/btn_save"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Save" />
+
 
 </LinearLayout>

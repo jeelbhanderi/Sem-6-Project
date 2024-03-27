@@ -45,7 +45,7 @@
     <fragment
         android:id="@+id/ad_nav_budget"
         android:name="com.spectric.erpsystem.AdminFragment.AdBudgetFragment"
-        android:label="Projects"
+        android:label="Budget"
         tools:layout="@layout/fragment_ad_budget" />
 
 </navigation>

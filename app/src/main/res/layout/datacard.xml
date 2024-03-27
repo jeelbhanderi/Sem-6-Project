@@ -17,7 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
-        android:textStyle="bold"
+        android:layout_margin="5dp"
         android:text="Company Name"/>
 
 
@@ -26,7 +26,8 @@
         android:id="@+id/txtmobile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="15dp"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
         android:text="Mobile: +123456789"/>
 
         <!-- Add more fields as needed -->
@@ -35,6 +36,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20dp"
+            android:layout_margin="5dp"
+
             android:text="Email: example@example.com"/>
 
         <TextView
@@ -42,6 +45,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20dp"
+
+            android:layout_margin="5dp"
             android:text="Address: 123 Main St"/>
 
         <TextView
@@ -49,12 +54,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20dp"
+            android:layout_margin="5dp"
             android:text="GST No: ABC123"/>
         <TextView
             android:id="@+id/txtpassword"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20dp"
+            android:layout_margin="5dp"
             android:text="GST No: ABC123"/>
 
 

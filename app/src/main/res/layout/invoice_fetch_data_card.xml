@@ -21,15 +21,19 @@
                 android:id="@+id/txt_invoice_no1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="15dp"/>
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:text="Invoice No"
+                android:textSize="20dp"/>
 
             <TextView
                 android:id="@+id/txt_invoice_clientname1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Name"
+                android:layout_margin="10dp"
                 android:textSize="20dp"
-                android:textStyle="bold"/>
+                />
 
             <!-- Add more fields as needed -->
 
@@ -38,6 +42,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Email: example@example.com"
+                android:layout_margin="10dp"
+
                 android:textSize="20dp"/>
 
             <TextView
@@ -45,6 +51,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Date: mm/dd/yyyy"
+                android:layout_margin="10dp"
+
                 android:textSize="20dp"/>
 
             <TextView
@@ -52,6 +60,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Address: 123 Main St"
+                android:layout_margin="10dp"
+
                 android:textSize="20dp"/>
 
             <TextView
@@ -59,12 +69,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Mobile: +123456789"
+                android:layout_margin="10dp"
+
                 android:textSize="20dp"/>
 
             <TextView
                 android:id="@+id/txt_invoice_amount"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
                 android:text="Amount: $100.00"
                 android:textSize="20dp"/>
 
@@ -72,6 +86,8 @@
                 android:id="@+id/txt_invoice_cgst"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
                 android:text="CGST: 18%"
                 android:textSize="20dp"/>
 

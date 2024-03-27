@@ -29,6 +29,8 @@
                 android:layout_margin="25dp"
                 />
 
+
+
             <EditText
                 android:id="@+id/regetCompanyName"
                 android:layout_width="match_parent"
@@ -38,7 +40,8 @@
                 android:textColorHint="@color/white"
                 android:layout_margin="10dp"
                 android:background="#30ffffff"
-                android:padding="20dp"/>
+                android:padding="20dp"
+                android:textSize="20dp"/>
             <EditText
                 android:id="@+id/regetmobile"
                 android:layout_width="match_parent"
@@ -48,7 +51,8 @@
                 android:textColorHint="@color/white"
                 android:layout_margin="10dp"
                 android:background="#30ffffff"
-                android:padding="20dp"/>
+                android:padding="20dp"
+                android:textSize="20dp"/>
 
             <EditText
                 android:id="@+id/regetAddress"
@@ -59,7 +63,8 @@
                 android:textColorHint="@color/white"
                 android:layout_margin="10dp"
                 android:background="#30ffffff"
-                android:padding="20dp"/>
+                android:padding="20dp"
+                android:textSize="20dp"/>
 
 
 
@@ -72,7 +77,8 @@
                 android:textColorHint="@color/white"
                 android:layout_margin="10dp"
                 android:background="#30ffffff"
-                android:padding="20dp"/>
+                android:padding="20dp"
+                android:textSize="20dp"/>
 
             <EditText
                 android:id="@+id/regetWebsite"
@@ -83,7 +89,8 @@
                 android:textColorHint="@color/white"
                 android:layout_margin="10dp"
                 android:background="#30ffffff"
-                android:padding="20dp"/>
+                android:padding="20dp"
+                android:textSize="20dp"/>
             <EditText
                 android:id="@+id/regetgstno"
                 android:layout_width="match_parent"
@@ -93,7 +100,8 @@
                 android:textColorHint="@color/white"
                 android:layout_margin="10dp"
                 android:background="#30ffffff"
-                android:padding="20dp"/>
+                android:padding="20dp"
+                android:textSize="20dp"/>
 
             <EditText
                 android:id="@+id/regetHScSac"
@@ -104,7 +112,8 @@
                 android:textColorHint="@color/white"
                 android:layout_margin="10dp"
                 android:background="#30ffffff"
-                android:padding="20dp"/>
+                android:padding="20dp"
+                android:textSize="20dp"/>
             <EditText
                 android:id="@+id/regetCompanyPan"
                 android:layout_width="match_parent"
@@ -114,20 +123,22 @@
                 android:textColorHint="@color/white"
                 android:layout_margin="10dp"
                 android:background="#30ffffff"
-                android:padding="20dp"/>
-
+                android:padding="20dp"
+                android:textSize="20dp"/>
 
 
             <EditText
                 android:id="@+id/regetpassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="password"
-                android:textColor="@color/white"
-                android:textColorHint="@color/white"
                 android:layout_margin="10dp"
                 android:background="#30ffffff"
-                android:padding="20dp"/>
+                android:hint="password"
+                android:padding="20dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="20dp" />
+
 
             <Button
                 android:id="@+id/regbutton"
@@ -149,6 +160,7 @@
                 android:textAlignment="center"
                 android:textSize="20dp"
                 ></TextView>
+
         </LinearLayout>
 
 

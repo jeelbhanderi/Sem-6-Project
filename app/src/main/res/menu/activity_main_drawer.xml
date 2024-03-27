@@ -6,38 +6,30 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
             android:title="ManageCompany" />
         <item
             android:id="@+id/nav_ad_employee"
-            android:icon="@drawable/ic_menu_slideshow"
             android:title="Employee" />
         <item
             android:id="@+id/nav_ad_client"
-            android:icon="@drawable/ic_menu_slideshow"
             android:title="Clients" />
 
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
             android:title="Invoice" />
 
 
         <item
             android:id="@+id/nav_ad_interns"
-            android:icon="@drawable/ic_menu_slideshow"
             android:title="Iterns" />
         <item
             android:id="@+id/nav_ad_Projects"
-            android:icon="@drawable/ic_menu_slideshow"
             android:title="Projects" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
             android:title="Profile" />
         <item
             android:id="@+id/ad_nav_budget"
-            android:icon="@drawable/ic_menu_slideshow"
             android:title="Budget" />
 
     </group>
